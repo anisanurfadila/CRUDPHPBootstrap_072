@@ -126,6 +126,7 @@
                         <!--kolom ini untuk aksi data mahasiswa-->
                         <td>
                             <!--  btn-sm agar tombolnya kecil-->
+                            <a href="detail.php?id=<?php echo $data['id']; ?>" class="btn btn-success btn-sm text-white">DETAIL</a>
                             <!-- link untuk masuk ke halaman edit-->
                             <!-- edit.php?id=< -->
                                 <!-- ?php echo $data['id'];?> --> 
